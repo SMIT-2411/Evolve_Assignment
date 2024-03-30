@@ -1,5 +1,7 @@
 import SwiftUI
 
+
+
 struct ContentView: View {
     
     
@@ -38,7 +40,7 @@ struct ContentView: View {
                 Spacer()
                 
                 
-                //used cream color as background instead of white 
+                //used cream color as background instead of white
                 
                 ZStack{
                     RoundedRectangle(cornerRadius: 25)
@@ -108,5 +110,6 @@ struct EmojiButton : View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.light)
     }
 }
